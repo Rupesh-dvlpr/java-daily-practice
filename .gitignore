@@ -1,0 +1,21 @@
+# Java compiled files
+*.class
+
+# Eclipse build output
+bin/
+
+# Maven
+target/
+
+# Gradle
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
