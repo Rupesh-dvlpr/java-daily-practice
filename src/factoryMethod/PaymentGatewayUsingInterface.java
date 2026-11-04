@@ -39,7 +39,6 @@ class PaymentGateway{
 			IO.println("Initiating Credit Card Payment");
 			return new CreditCardPayment();
 		}else {
-			IO.println("Invalid Payment type selected!");
 			return null;
 		}
 	}
@@ -51,8 +50,14 @@ public class PaymentGatewayUsingInterface {
 		IO.println("==============Payment Gateway================");
 		String type = IO.readln("Enter Payment Type [CreditCard / UPI]: ");		
 		Payments paymentGateway=PaymentGateway.initiatePayment(type);
+		
+		if(paymentGateway == null)
+		{
+			IO.println("Invalid Payment type selected!");
+		}else {
 		paymentGateway.processPayment();
 		paymentGateway.applyDiscount();
+		}
 	}
 
 }
