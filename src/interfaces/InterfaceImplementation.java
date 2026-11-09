@@ -20,7 +20,7 @@ import java.util.*;
 
 public class InterfaceImplementation {
     public static void main(String[] args) {
-        String msg = IO.readln();
+        String msg = IO.readln("Enter a message: ");
         ApplicationLogger application = new ApplicationLogger();
         application.log(msg);
         
