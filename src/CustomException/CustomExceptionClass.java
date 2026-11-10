@@ -1,4 +1,4 @@
-package Exception;
+package CustomException;
 
 /**A banking system prevents users from withdrawing more money than their account balance.
 If a withdrawal request exceeds the balance, a custom exception InsufficientBalanceException should be thrown.
