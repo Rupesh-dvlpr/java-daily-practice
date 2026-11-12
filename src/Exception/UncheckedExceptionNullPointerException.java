@@ -15,6 +15,7 @@ Read a string value from user input
 
 public class UncheckedExceptionNullPointerException {
 	 public static void main(String[] args) {
+		 	System.out.println("Enter your name: ");
 	        String input = IO.readln();
 	        if(input.equalsIgnoreCase("null")){
 	            input = null;
