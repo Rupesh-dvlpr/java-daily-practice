@@ -1,4 +1,4 @@
-package Predicate;
+package PredicateFunctionInterface;
 
 /**Develop a scenario based program by using Functional interface to check whether a Car 
 is eligible for sale or not.

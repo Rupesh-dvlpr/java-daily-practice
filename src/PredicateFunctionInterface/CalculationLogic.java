@@ -1,4 +1,4 @@
-package Predicate;
+package PredicateFunctionInterface;
 /*
  * Assignment 01 :
 ---------------
