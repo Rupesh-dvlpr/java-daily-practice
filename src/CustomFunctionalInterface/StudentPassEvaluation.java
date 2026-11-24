@@ -20,7 +20,7 @@ public class StudentPassEvaluation {
         int marks = Integer.parseInt(IO.readln());
 
         ResultEvaluator<Integer, String> re = mark->{
-            if(marks>30){
+            if(mark>30){
                 return "Pass";
             }else{
                 return "Fail";
